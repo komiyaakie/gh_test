@@ -13,10 +13,8 @@
     <![endif]-->
     <link rel="stylesheet" href="css/sanitize.css">
     <link rel="stylesheet" href="css/style-sample.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/effect-sample.js"></script>
-    <script src="js/slick.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    
 </head>
  
 <body>
@@ -48,11 +46,15 @@
     <!----- メインコンテンツ ----->
     <main>
 
-        <section id="slider">
-            <div class="slide-item"><img src="image/topb_ct.jpg" width="800px"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
+        <section class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/topb_ct.jpg" width="800px"></div>
+                <div class="swiper-slide"><img src="image/topb_bct.jpg" width="800px"></div>
+                <div class="swiper-slide"><img src="image/topb_tz.jpg" width="800px"></div>
+                <div class="swiper-slide"><img src="image/topb_ct.jpg" width="800px"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </section>
 
         <section id="whatsnew">
@@ -184,6 +186,9 @@
         <p id="copylight">Copyright (C) 2018 K's International All Rights Reserved.</p>
     </footer>
     <!----- フッター END ----->
+
+    <script src="./js/swiper.min.js"></script>
+    <script src="js/effect-sample.js"></script>
 
 </body>
 
