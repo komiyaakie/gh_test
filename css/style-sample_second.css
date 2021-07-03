@@ -1,8 +1,36 @@
-
-/* news */
+/* だいたい共通 */
 #page_container{
     padding: 120px 0 70px;
 }
+#page_container a{
+    text-decoration: underline;
+}
+.page_contents{
+    margin: 50px 70px 0;
+    text-align: left;
+}
+.page_caption{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+.page_caption::before{
+    content: "";
+    background-image: url("../image/icon_Dia.png");
+    display: inline-block;
+    background-size: contain;
+    width: 39px;
+    height: 26px;
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* news */
 #page_container dl{
     margin: 40px;
     font-size: 0.95rem;
@@ -17,4 +45,58 @@
 }
 hr{
     border: 1px dotted #999;
+}
+
+/* 企業情報 */
+.page_contents th, .page_contents td{
+    padding: 10px 20px;
+}
+.page_contents th{
+    background-color: #ddd;
+    border-bottom: solid 1px #fff;
+}
+
+/* 参入事業 */
+.page_caption_left{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.page_caption_left::after{
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-size: 4px 1px;
+    background-image: linear-gradient(to right, #777, #777 2px, transparent 2px, transparent 4px);
+    background-repeat: repeat-x;
+    margin-left: 10px;
+}
+.company_contents_image{
+    float: right;
+    margin: 10px;
+}
+.page_contents_text{
+    margin: 20px 10px;
+    padding: 10px 0;
+}
+#company_contents-image02pc{
+    padding-top: 200px;
+}
+.page_contents_link{
+    margin-top: 10px;
+    text-align: right;
+}
+#page_contents_linklo{
+    margin-top: 40px;
+}
+.new_window::after{
+    content: "";
+    background-image: url("../image/newWin_icon.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+    position: relative;
+    top: 5px;
 }
