@@ -1,0 +1,20 @@
+
+/* news */
+#page_container{
+    padding: 120px 0 70px;
+}
+#page_container dl{
+    margin: 40px;
+    font-size: 0.95rem;
+}
+#page_container dt, #page_container dd{
+    padding: 5px;
+    text-align: left;
+    line-height: 300%;
+}
+#page_container dd{
+    margin-left: 150px;
+}
+hr{
+    border: 1px dotted #999;
+}
