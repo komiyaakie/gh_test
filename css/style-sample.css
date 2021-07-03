@@ -62,6 +62,7 @@ header{
     border-left: solid 1px #777;
 }
 
+/* TOPページ */
 /* スライダー */
 .swiper-container{
     padding-top: 100px;   
@@ -82,6 +83,9 @@ section{
     margin: auto;
     border-bottom: solid 1px #777;
     padding-bottom: 10px;
+}
+.sec_title h2{
+    font-size: 1.8rem;
 }
 #company-prof, #ks-spirit{
     background-color: #ddd;
@@ -212,6 +216,7 @@ dd{
     background-image: url(../image/kawagoe_overall03.jpg);
     background-position: center;
 }
+
 /* フッター */
 footer{
     border-top: solid 1px #777;
