@@ -38,9 +38,11 @@
 #page_container dt, #page_container dd{
     padding: 5px;
     text-align: left;
+}
+#news_contents dt, #news_contents dd{
     line-height: 300%;
 }
-#page_container dd{
+#news_contents dd{
     margin-left: 150px;
 }
 hr{
@@ -295,4 +297,9 @@ hr{
 }
 #privacy_contents p{
     margin: 20px 0;
+}
+
+/* サンキューページ */
+#thanks_contents a{
+    text-decoration: none;
 }

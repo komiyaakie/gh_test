@@ -121,11 +121,11 @@ section{
     font-size: 0.95rem;
     line-height: 250%;
 }
-dt{
+#whatsnew dt{
     font-family: "メイリオ", sans-serif;
     float: left;
 }
-dd{
+#whatsnew dd{
     font-family: "メイリオ", sans-serif;
     margin-left: 110px;
 }
