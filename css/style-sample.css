@@ -23,7 +23,7 @@ h2, h5{
 }
 
 /* ヘッダー */
-header, #sub-nav, #button-nav, #global-nav{
+header, .sub-nav, .button-nav, #global-nav{
     display: flex;
     align-items: center;
 }
@@ -36,23 +36,27 @@ header{
     border-bottom: solid 1px #777;
     z-index: 999;
 }
-#sub-nav, #global-nav{
+#logo img{
+    height: 84px;
+    width: auto;
+}
+.sub-nav, #global-nav{
     justify-content: flex-end;
 }
-#sub-nav{
+.sub-nav{
     margin: 0;
 }
-#sub-nav li{
+.sub-nav li{
     padding: 0 15px;
     font-size: 0.9rem;
 }
-#button-nav{
+.button-nav{
     background-color: #023562;
 }
-#button-nav a{
+.button-nav a{
     color: #fff;
 }
-#button-nav li{
+.button-nav li{
     border-left: solid 1px #fff;
     padding: 10px 20px;
 }
@@ -60,6 +64,9 @@ header{
     padding: 0 30px;
     font-size: 1.1rem;
     border-left: solid 1px #777;
+}
+#drawer-menu{
+    display: none;
 }
 
 /* TOPページ */
@@ -108,7 +115,6 @@ section{
 
 /* what's new */
 .sec_flex{
-    text-align: left;
     align-items: center;
     margin: 0 30px 20px;
 }
@@ -117,6 +123,7 @@ section{
     padding: 60px 30px;
 }
 #whatsnew dl{
+    text-align: left;
     padding-left: 20px;
     font-size: 0.95rem;
     line-height: 250%;
@@ -223,21 +230,18 @@ footer{
     padding: 20px;
 }
 #footer_list li{
-    margin: 0 25px;
+    margin: 0 20px;
     font-size: 0.9rem;
 }
 .footer_sub{
     font-size: 0.75rem;
 }
-#footer_icon{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-}
 .instagram, .mail{
-    margin: 0 8px;
+    margin: 10px !important;
+    text-align: center;
 }
 #copylight{
     font-size: 0.8rem;
     text-align: center;
+    margin-top: 50px;
 }

@@ -81,12 +81,15 @@ hr{
     margin: 20px 10px;
     padding: 10px 0;
 }
-#company_contents-image02pc{
+#company_contents-image02{
     padding-top: 200px;
 }
 .page_contents_link{
     margin-top: 10px;
     text-align: right;
+}
+#company_contents-image03sp{
+    display: none;
 }
 #page_contents_linklo{
     margin-top: 40px;

@@ -1,0 +1,134 @@
+@media screen and (max-width: 480px){
+
+    #page_container{
+        padding: 65px 0;
+    }
+    #page_container dl{
+        margin: 40px 20px;
+    }
+    #news_contents dd{
+        margin-left: 0;
+    }
+    #news_contents dt, #news_contents dd{
+        line-height: 200%;
+    }
+    .page_contents{
+        margin: 40px 20px 0;
+    }
+    .page_caption{
+        font-size: 1.1rem;
+    }
+    .page_contents p, .page_contents ul, .page_contents table{
+        font-size: 0.95rem;
+    }
+    .page_contents th, .page_contents td{
+        display: block;
+    }
+    .page_contents th{
+        padding: 0 15px;
+    }
+    .page_contents td{
+        padding: 5px 10px;
+    }
+    .page_caption_left, .page_caption_right, .page_caption_center{
+        font-size: 1.05rem;
+    }
+    .page_contents_text{
+        padding: 0;
+        margin: 10px 0;
+    }
+    /* 企業情報 */
+    .company_contents_image{
+        float: none;
+    }
+    #company_contents-image01 img, #company_contents-image02 img, #company_contents-image03sp img{
+        width: 100%;
+    }
+    #company_contents-image01 img{
+        height: 150px;
+        object-fit: cover;
+    }
+    #company_contents-image02{
+        padding-top: 0;
+    }
+    #company_contents-image03pc{
+        display: none;
+    }
+    #company_contents-image03sp{
+        display: inline-block;
+    }
+    #page_contents_linklo{
+        margin-top: 0;
+    }
+    /* 社員の声 */
+    .voice_contents_image-right, .voice_contents_image-left{
+        float: none;
+        margin: 10px;
+    }
+    #voice_contents-image01pc img{
+        object-fit: cover;
+        width: 100%;        
+        height: 180px;
+    }
+    .page_contents_text01, .page_contents_text02, .page_contents_text03, .page_contents_text04{
+        margin: 20px 0;
+        padding: 0;
+    }
+    .page_contents_text01, .page_contents_text02, .page_contents_text03, .page_contents_text04{
+        background: none;
+    }
+    /* ケイズスピリット */
+    .ks-spt_contents_image-right, .ks-spt_contents_image-left{
+        margin: 10px;
+    }
+    /* ギャラリー */
+    .gallery_contents{
+        flex-direction: column;
+        margin: 0;
+    }
+    .gallery_contents_image img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .gallery_cnt_reverse{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .gallery_contents_text{
+        padding: 0 10px;
+    }
+    .gallery_contents_text02{
+        margin-top: 20px;
+    }
+    /* 店舗一覧 */
+    .shop_contents_image{
+        margin: 0 auto;
+        padding: 70% 0 0;
+        justify-content: flex-start;
+    }
+    .shop_contents_image-main{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .shop_contents_image-thumb{
+        width: 30%;
+    }
+    .shop_contents_image-thumb img{
+        width: 60px;
+        height: 60px;
+        margin: 0 5px;
+    }
+    /* Q&A */
+    .q-a_a{
+        margin: 0 10px;
+    }
+    /* プライバシーポリシー */
+    #privacy_contents{
+        line-height: 220%;
+    }
+    /* お問い合わせ */
+    .contact_description{
+        font-size: 0.95rem;
+    }
+
+}

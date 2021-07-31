@@ -48,7 +48,6 @@ form#mail_form dl dt span.optional {
 	color: #d9534f;
 	font-size: 0.7rem;
 	position: relative;
-	top: -3px;
 }
 
 form#mail_form dl dd span.error_blank,
@@ -203,7 +202,6 @@ form#mail_form input#address {
 	width: 90%;
 }
 
-
 form#mail_form p#form_submit {
 	width: 90%;
 	margin: 0 auto;
@@ -231,11 +229,11 @@ form#mail_form input#form_submit_button {
 
 /* -- responsive ----------------------------------------------------------------------------------------------------------------- */
 
-/* 1000pixel start */
-@media screen and ( max-width: 1000px ) {
+/* 480pixel start */
+@media screen and ( max-width: 480px ) {
 
 form#mail_form {
-	width: 95%;
+	width: 100%;
 	font-size: 100%;
 }
 
@@ -258,20 +256,13 @@ form#mail_form dl dd {
 	padding: 0px 0 20px 0px;
 }
 
+form#mail_form dl dt span.required, form#mail_form dl dt span.optional{
+	padding: 0 10px;
+}
+
 form#mail_form dl dt span {
 	font-weight: normal;
 }
-
-/* -- for JavaScript ここから -------------------------------------------------------------------------------- */
-
-form#mail_form dl dt span.required,
-form#mail_form dl dt span.optional {
-	margin-right: 1em;
-	margin-bottom: 2em;
-}
-
-
-/* -- for JavaScript ここまで -------------------------------------------------------------------------------- */
 
 form#mail_form input[type="text"],
 form#mail_form input[type="email"],
@@ -279,12 +270,29 @@ form#mail_form input[type="tel"] {
 	margin-top: 0px;
 }
 
+form#mail_form input#name_1, form#mail_form input#mail_address, form#mail_form input#mail_address_confirm, form#mail_form input#phone, form#mail_form textarea{
+	width: 100%;
+	max-width: 100%;
+}
+
+.contact_flex{
+	flex-wrap: wrap;
+}
+
+.contact_flex li{
+	padding: 5px 15px !important;
+}
+
 form#mail_form input#postal + a {
 	padding: 6px 15px 5px;
 }
 
+form#mail_form p#form_submit{
+	text-align: center;
+}
+
 form#mail_form input#form_submit_button {
-	margin-left: 0;
+	margin: 0 auto !important;
 }
 
 form#mail_form select {
@@ -292,13 +300,8 @@ form#mail_form select {
 	margin-top: 0;
 }
 
-form#mail_form input#phone,
-form#mail_form input#schedule {
-	width: 50%;
 }
-
-}
-/* 1000pixel end */
+/* 480pixel end */
 
 
 
