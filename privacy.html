@@ -15,18 +15,19 @@
     <link rel="stylesheet" href="css/style-sample.css">
     <link rel="stylesheet" href="css/style-sample_sp.css">
     <link rel="stylesheet" href="css/style-sample_second.css">
+    <link rel="stylesheet" href="css/style-sample_second_sp.css">
 </head>
  
 <body>
 
     <!----- ヘッダー ----->
     <header>
-        <div id="logo"><a href="index.html"><img src="image/ks_logo.svg" alt="ロゴ" width="121px"></a></div>
-        <nav>
-            <ul id="sub-nav">
+        <div id="logo"><a href="index.html"><img src="image/ks_logo.svg" alt="ロゴ"></a></div>
+        <nav id="nav-pc">
+            <ul class="sub-nav">
                 <li><a href="q&a.html">よくあるご質問</a></li>
                 <li><a href="privacy.html">プライバシーポリシー</a></li>
-                <ul id="button-nav">
+                <ul class="button-nav">
                     <a href="contact.html"><li>お問い合わせ</li></a>
                     <a href="https://www.ks-intl.jp/recruit.html" target="_blank"><li>採用情報<img src="image/newWin_icon_wt.svg" height="20px"></li></a>
                 </ul>    
@@ -40,6 +41,28 @@
                 <li><a href="shop.html">店舗一覧</a></li>
             </ul>
         </nav>
+        <div id="drawer-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <div class="drawer-menu_content">
+                <ul id="global-nav_sp">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="company.html">企業情報</a></li>
+                    <li><a href="voice.html">社員の声</a></li>
+                    <li><a href="ks-spirit.html">ケイズスピリット</a></li>
+                    <li><a href="gallery.html">ギャラリー</a></li>
+                    <li><a href="shop.html">店舗一覧</a></li>
+                </ul>
+                <ul class="sub-nav">
+                    <li class="sub-nav_splist"><a href="q&a.html">よくあるご質問</a></li>
+                    <li class="sub-nav_splist"><a href="privacy.html">プライバシーポリシー</a></li>
+                    <ul class="button-nav">
+                        <a href="contact.html"><li>お問い合わせ</li></a>
+                        <a href="https://www.ks-intl.jp/recruit.html" target="_blank"><li>採用情報<img src="image/newWin_icon_wt.svg" height="20px"></li></a>
+                    </ul>    
+                </ul>
+            </div>
+        </div>
     </header>
     <!----- ヘッダー END ----->
  
@@ -105,10 +128,10 @@
                 <p class="footer_title"><a href="contact.html">お問い合わせ</a></p><p class="footer_title"><a href="https://www.ks-intl.jp/recruit.html" target="_blank">採用情報</a></p>
                 <p class="footer_sub"><a href="q&a.html">よくあるご質問</a></p><p class="footer_sub"><a href="privacy.html">プライバシーポリシー</a></p>
             </li>
-        </ul>
-        <ul id="footer_icon">
-            <li class="instagram"><a href="https://www.instagram.com/ks.intl/" target="_blank"><img src="image/insta-icon2.png" alt="instagram" height="35px"></a></li>
-            <li class="mail"><a href="mailto:ksinfo@ks-intl.jp"><img src="image/mail.png" alt="mail" height="35px"></a></li>
+            <ul id="footer_icon">
+                <li class="instagram"><a href="https://www.instagram.com/ks.intl/" target="_blank"><img src="image/insta-icon2.png" alt="instagram" height="35px"></a></li>
+                <li class="mail"><a href="mailto:ksinfo@ks-intl.jp"><img src="image/mail.png" alt="mail" height="35px"></a></li>
+            </ul>
         </ul>
         <p id="copylight">Copyright (C) 2018 K's International All Rights Reserved.</p>
     </footer>
